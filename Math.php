@@ -38,5 +38,9 @@ class Math {
 		$sum = $num1 - $num2 - $num3;
 		return $sum;
 	}
+public static function multiply($num1, $num2){
+		$sum = $num1 * $num2;
+		return $sum;
+	}
 	
 }
