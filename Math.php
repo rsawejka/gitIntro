@@ -28,5 +28,10 @@ class Math {
 		$sum = $num1 - $num2;
 		return $sum;
 	}
+
+	public static function subtractMore($num1, $num2, $num3) {
+		$sum = $num1 - $num2 - $num3;
+		return $sum;
+	}
 	
 }
