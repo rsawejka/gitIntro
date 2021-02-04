@@ -23,8 +23,20 @@ class Math {
 		$sum = $num1 * $num2;
 		return $sum;
 	}
+<<<<<<< HEAD
 	
 		public static function divide($num1, $num2){
+=======
+
+	//add three numbers
+	public static function addThree($num1, $num2, $num3){
+		$sum = $num1 + $num2 + $num3;
+		return $sum;
+	}
+
+	//divide numbers
+	public static function divide($num1, $num2){
+>>>>>>> 3a98baaba113f55fe2be81741ef78e071c594e33
 		$sum = $num1 / $num2;
 		return $sum;
 	}
