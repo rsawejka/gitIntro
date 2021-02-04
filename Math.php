@@ -19,36 +19,14 @@ class Math {
 	 * @param float $b
 	 * @return float
 	 */
-	//add numbers
 	public static function add($num1, $num2){
-		$sum = $num1 + $num2;
-		return $sum;
-	}
-	//divide numbers
-	public static function divide($num1, $num2){
-		$sum = $num1 / $num2;
-		return $sum;
-	}
-//subtract numbers 
-	public static function subtract($num1, $num2){
-		$sum = $num1 - $num2;
-		return $sum;
-	}
-//more subtraction
-	public static function subtractMore($num1, $num2, $num3) {
-		$sum = $num1 - $num2 - $num3;
-		return $sum;
-	}
-	// multiply numbers
-public static function multiply($num1, $num2){
 		$sum = $num1 * $num2;
 		return $sum;
 	}
-
-	// return the average of two numbers
-	public static function average($num1, $num2){
-		$average = ($num1 * $num2)/2;
-		return $average;
+	
+		public static function divide($num1, $num2){
+		$sum = $num1 / $num2;
+		return $sum;
 	}
 	
 }
