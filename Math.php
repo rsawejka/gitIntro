@@ -24,9 +24,17 @@ class Math {
 		$sum = $num1 + $num2;
 		return $sum;
 	}
+        public static function Multiply3($num1, $num2){
+		$sum = $num1 + $num2;
+		return $sum;
+	}
 	//divide numbers
 	public static function divide($num1, $num2){
 		$sum = $num1 / $num2;
+		return $sum;
+	}
+	public static function multiply($num1, $num2){
+		$sum = $num1 + $num2;
 		return $sum;
 	}
 //subtract numbers 
