@@ -51,11 +51,20 @@ public static function multiply($num1, $num2){
 		$sum = $num1 * $num2;
 		return $sum;
 	}
+<<<<<<< HEAD
 
 	// return the average of two numbers
 	public static function average($num1, $num2){
 		$average = ($num1 * $num2)/2;
 		return $average;
 	}
+=======
+	//New Function
+public static function newFunction($num1, $num2){
+	$sum = $num1 + $num2;
+	$average = $sum / 2;
+	return $average;
+}
+>>>>>>> New Function
 	
 }
