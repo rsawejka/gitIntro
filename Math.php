@@ -50,5 +50,13 @@ public static function newFunction($num1, $num2){
 	$average = $sum / 2;
 	return $average;
 }
+
+//
+public static function addTwenty($num1){
+	$sum = $num1 + 20;
+	return $sum;
+}
+
+
 	
 }
