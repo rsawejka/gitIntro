@@ -24,13 +24,6 @@ class Math {
 		$sum = $num1 + $num2;
 		return $sum;
 	}
-
-	//add three numbers
-	public static function addThree($num1, $num2, $num3){
-		$sum = $num1 + $num2 + $num3;
-		return $sum;
-	}
-
 	//divide numbers
 	public static function divide($num1, $num2){
 		$sum = $num1 / $num2;
@@ -46,16 +39,24 @@ class Math {
 		$sum = $num1 - $num2 - $num3;
 		return $sum;
 	}
-	// multiply numbers
+	// multiply nuimbers
 public static function multiply($num1, $num2){
 		$sum = $num1 * $num2;
 		return $sum;
 	}
+	//New Function By Ryan Sanders
+public static function newFunction($num1, $num2){
+	$sum = $num1 + $num2;
+	$average = $sum / 2;
+	return $average;
+}
 
-	// return the average of two numbers
-	public static function average($num1, $num2){
-		$average = ($num1 * $num2)/2;
-		return $average;
-	}
+//
+public static function addTwenty($num1){
+	$sum = $num1 + 20;
+	return $sum;
+}
+
+
 	
 }
