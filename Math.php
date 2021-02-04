@@ -39,10 +39,16 @@ class Math {
 		$sum = $num1 - $num2 - $num3;
 		return $sum;
 	}
-	// multiply nuimbers
+	// multiply numbers
 public static function multiply($num1, $num2){
 		$sum = $num1 * $num2;
 		return $sum;
+	}
+
+	// return the average of two numbers
+	public static function average($num1, $num2){
+		$average = ($num1 * $num2)/2;
+		return $average;
 	}
 	
 }
