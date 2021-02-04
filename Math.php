@@ -44,7 +44,7 @@ public static function multiply($num1, $num2){
 		$sum = $num1 * $num2;
 		return $sum;
 	}
-	//New Function
+	//New Function By Ryan Sanders
 public static function newFunction($num1, $num2){
 	$sum = $num1 + $num2;
 	$average = $sum / 2;
